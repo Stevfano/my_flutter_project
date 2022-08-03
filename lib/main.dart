@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20.0,
+                height: 50.0,
                 width: 150.0,
                 child: Divider(
                   color: Colors.teal[100],
